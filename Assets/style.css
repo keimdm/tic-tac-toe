@@ -1,10 +1,112 @@
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.board {
+    position: relative;
+    margin: auto;
+    width: 50%;
 }
 
-p {
+.box1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.box2 {
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.box3 {
+    position: absolute;
+    top: 0px;
+    left: 440px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.box4 {
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.box5 {
+    position: absolute;
+    top: 220px;
+    left: 220px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.box6 {
+    position: absolute;
+    top: 220px;
+    left: 440px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.box7 {
+    position: absolute;
+    top: 440px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.box8 {
+    position: absolute;
+    top: 440px;
+    left: 220px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.box9 {
+    position: absolute;
+    top: 440px;
+    left: 440px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.spaceText {
+    color: black;
+    font-size: 150px;
+    font-family: "Arial";
+}
+
+.status {
+    position: absolute;
+    top: 640px;
+    left: 0px;
+    width: 640px;
+    height: 60px;
+    background-color: white;
     color: black;
     font-size: 20px;
     text-align: center;
